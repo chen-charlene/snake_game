@@ -1,7 +1,12 @@
-#
+# Snake Game
+URL: https://snake-game-jir2t1epn-charlene-chens-projects.vercel.app/
 
-
-
+# Game Functionality & Features
+- Implement a snake character that can move in four directions: up, down, left, and right. Handle keyboard input (arrow keys) for controlling the snake's movement.
+- Randomly generate food items on the game board. When the snake eats a food item, its length should increase, and the player's score should be updated on the screen.
+- Implement collision detection to handle cases when the snake collides with the game board boundaries or itself. The game should end in such cases, and the player's final score should be displayed.
+- Display the player's current score and any relevant game information on the screen, such as a "Game Over" message.
+- Provide a way for the player to start a new game after the current game ends. This can be done using a "Play Again" button or similar user interface element.
 
 
 # Getting Started with Create React App
