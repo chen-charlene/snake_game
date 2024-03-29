@@ -8,6 +8,10 @@ URL: https://snake-game-jir2t1epn-charlene-chens-projects.vercel.app/
 - Display the player's current score and any relevant game information on the screen, such as a "Game Over" message.
 - Provide a way for the player to start a new game after the current game ends. This can be done using a "Play Again" button or similar user interface element.
 
+# Technical Choices
+The game is built using react and typescript as it is a front-end focused project. For the UI components, the svg was created using Figma and general styling was accomplished through CSS. The main components of the game include the board, snake, food item (apple), button, and displays (score & game over). These were managed using React useStates. In addition, React's useInterval hook was implemented to manage the game update and constant rendering of components as the game played. 
+The webapp version of the game was deployed using Vercel.
+
 
 # Getting Started with Create React App
 
